@@ -1,0 +1,13 @@
+->  Ler variavel tipo String:
+        String x = sc.next()
+->  Usar variavel tipo String:
+        if ("x" > 0) {}
+->  Ler variavel tipo char (simbolo ou caracter único):
+        char x = sc.next().charAt(0) <- (0 = nº index do texto)
+->  Usar variavel tipo char:
+        if ('x' > 0) {}
+->  Comparar Strings:
+        String x = "Sim"
+        if (x.equals("Sim")) {}
+        OU
+        if (x.equals("sim")) {}

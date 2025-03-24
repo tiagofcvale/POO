@@ -1,0 +1,31 @@
+class CashRegister {
+
+    ArrayList<Product> products;
+    
+    public CashRegister() {
+        this.products = new ArrayList<>();
+    }
+
+    public void addProduct(Product product) {
+        products.add(product);
+    }
+
+    public double getTotalValue() {
+        double total = 0;
+        for (Product product : products) {
+            total += product.getTotalValue();
+        }
+        return total;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Lista de Produtos:\n");
+        for (Product product : products) {
+            sb.append(product.toString()).append("\n");
+        }
+        sb.append("Valor total: ").append(getTotalValue());
+        return sb.toString();
+    }
+}
