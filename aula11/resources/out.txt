@@ -1,0 +1,3 @@
+Maria Joaquina; 911234567; joaquina@ua.pt; 1985-01-01;
+João Miguel; 911234568; joao@ua.pt; 1988-01-01;
+Maria Santos; 918765432; maria@ua.pt; 1998-03-20;
